@@ -30,6 +30,7 @@ type Client struct {
 	Alerts           Alerts
 	Comments         Comments
 	Databases        Databases
+	ExternalTables   ExternalTables
 	FailoverGroups   FailoverGroups
 	FileFormats      FileFormats
 	Grants           Grants
@@ -122,6 +123,7 @@ func (c *Client) initialize() {
 	c.ContextFunctions = &contextFunctions{client: c}
 	c.ConversionFunctions = &conversionFunctions{client: c}
 	c.Databases = &databases{client: c}
+	c.ExternalTables = &externalTables{client: c}
 	c.FailoverGroups = &failoverGroups{client: c}
 	c.FileFormats = &fileFormats{client: c}
 	c.Grants = &grants{client: c}
