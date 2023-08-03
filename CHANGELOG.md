@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.70.0](https://github.com/Snowflake-Labs/terraform-provider-snowflake/compare/v0.69.0...v0.70.0) (2023-08-03)
+
+
+### Features
+
+* Add Pipes to SDK ([#1968](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/1968)) ([69a543f](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/69a543fd729b64bdd8964dc34626dee83b3f96a7))
+
 ## [0.69.0](https://github.com/Snowflake-Labs/terraform-provider-snowflake/compare/v0.68.2...v0.69.0) (2023-07-29)
 
 
